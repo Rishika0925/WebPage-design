@@ -1,0 +1,189 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 0 3%;
+  background-color: #fdfaf6;
+}
+
+h2 {
+  font-family: "Montserrat";
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+th {
+  font-size: 1.5rem;
+}
+
+table, th, tr, td {
+  text-align: left;
+  padding: 10px;
+}
+
+.navbar {
+  padding: 1rem 2.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.big-img {
+  position: relative;
+  margin: 0;
+}
+
+.Form {
+  position: absolute;
+  right: 200px;
+  top: 400px;
+  margin: 20px;
+}
+
+label {
+  color: white;
+  font-family: "Montserrat";
+}
+
+input[type=text], input[type=date] {
+  padding: 5px;
+  margin: 5px;
+  border: none;
+  background: #f1f1f1;
+}
+
+.offer-img {
+  width: 500px;
+  height: 400px;
+  margin: 20px;
+  padding: 15px 15px;
+}
+
+.destination-img {
+  border-width: 20px 20px;
+  margin: 5px;
+  border-radius: 10%;
+  height: 150px;
+  width: 250px;
+  padding: 10px;
+}
+
+.myButton {
+  background-color: #f1f1f1;
+  color: green;
+  font-size: 16px;
+  padding: 4px 9px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#Destinations {
+  padding: 4% 10%;
+  background-color: white;
+}
+
+.fas {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  color: #f4a9a8;
+}
+
+.fas:hover {
+  color: #e28f83;
+}
+
+#Facilities {
+  padding: 7% 15%;
+  background-color: #f8f5f1;
+}
+
+#Offers {
+  background-color: #f6e6cb;
+  padding: 5% 10%;
+}
+
+#information {
+  padding: 5% 10%;
+  background-color: white;
+}
+
+.end {
+  padding: 50px 20px 10px 50px;
+  width: 50%;
+}
+
+.Download {
+  padding: 50px 20px 10px 50px;
+  width: 50%;
+}
+
+#end-page {
+  background-color: white;
+}
+
+#footer {
+  padding: 100px;
+  background-color: #f6e6cb;
+}
+
+.card {
+  margin: 15px;
+}
+
+.media {
+  padding: 10px;
+}
+
+.d-button {
+  margin: 5% 3% 5% 0;
+  opacity: 1;
+}
+
+figcaption {
+  font-style: bold;
+}
+
+@media (max-width:796px) {
+  .Download {
+    width: 100%;
+  }
+
+  .end {
+    width: 100%;
+  }
+
+  table {
+    width: 100%;
+  }
+}
+
+@media(max-width:690px) {
+  .offer-img {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media(max-width:1107px) {
+  .destination-img {
+    padding: 30px 30px;
+    margin: 10px 10px;
+  }
+}
